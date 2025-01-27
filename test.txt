@@ -1,7 +1,0 @@
-docker run -it \
-    -e POSTGRES_USER="root" \
-    -e POSTGRES_PASSWORD="root" \
-    -e POSTGRES_DB="zoomcamp" \
-    -v $(pwd)/module-1/postgres_data \
-    -p 5432:543 \
-    postgres:13
